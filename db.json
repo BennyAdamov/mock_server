@@ -1,0 +1,451 @@
+
+
+{
+    "desc": {
+        "NodeId": {
+            "Identifier": 84,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Root",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Root",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 0,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    "children": [
+    {
+        "NodeId": {
+            "Identifier": 85,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Objects",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Objects",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    {
+        "NodeId": {
+            "Identifier": 86,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Types",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Types",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    {
+        "NodeId": {
+            "Identifier": 87,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Views",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Views",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    }
+],
+
+
+"attributes":[
+    [
+        {
+            "py/newargs": [
+                3
+            ],
+            "_value_": 3,
+            "_name_": "BrowseName",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": {
+                    "NamespaceIndex": 0,
+                    "Name": "Root",
+                    "_freeze": true
+                },
+                "_variantType": {
+                    "_value_": 20,
+                    "_name_": "QualifiedName",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                5
+            ],
+            "_value_": 5,
+            "_name_": "Description",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": {
+                    "Encoding": 0,
+                    "_text": null,
+                    "_locale": null,
+                    "_freeze": true
+                },
+                "_variantType": {
+                    "_value_": 21,
+                    "_name_": "LocalizedText",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                4
+            ],
+            "_value_": 4,
+            "_name_": "DisplayName",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": {
+                    "Encoding": 2,
+                    "_text": "Root",
+                    "_locale": null,
+                    "_freeze": true
+                },
+                "_variantType": {
+                    "_value_": 21,
+                    "_name_": "LocalizedText",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                12
+            ],
+            "_value_": 12,
+            "_name_": "EventNotifier",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": 0,
+                "_variantType": {
+                    "_value_": 3,
+                    "_name_": "Byte",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                2
+            ],
+            "_value_": 2,
+            "_name_": "NodeClass",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": {
+                    "py/newargs": [
+                        1
+                    ],
+                    "_value_": 1,
+                    "_name_": "Object",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uaprotocol_auto.NodeClass"
+                    }
+                },
+                "_variantType": {
+                    "_value_": 6,
+                    "_name_": "Int32",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                1
+            ],
+            "_value_": 1,
+            "_name_": "NodeId",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": {
+                    "Identifier": 84,
+                    "NamespaceIndex": 0,
+                    "NodeIdType": {
+                        "py/newargs": [
+                            0
+                        ],
+                        "_value_": 0,
+                        "_name_": "TwoByte",
+                        "__objclass__": {
+                            "py/type": "opcua.ua.uatypes.NodeIdType"
+                        }
+                    },
+                    "NamespaceUri": "",
+                    "ServerIndex": 0,
+                    "_freeze": true
+                },
+                "_variantType": {
+                    "_value_": 17,
+                    "_name_": "NodeId",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                7
+            ],
+            "_value_": 7,
+            "_name_": "UserWriteMask",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": 0,
+                "_variantType": {
+                    "_value_": 7,
+                    "_name_": "UInt32",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ],
+    [
+        {
+            "py/newargs": [
+                6
+            ],
+            "_value_": 6,
+            "_name_": "WriteMask",
+            "__objclass__": {
+                "py/type": "opcua.ua.attribute_ids.AttributeIds"
+            }
+        },
+        {
+            "Encoding": 1,
+            "Value": {
+                "_freeze": true,
+                "_value": 0,
+                "_variantType": {
+                    "_value_": 7,
+                    "_name_": "UInt32",
+                    "__objclass__": {
+                        "py/type": "opcua.ua.uatypes.VariantType"
+                    }
+                },
+                "Dimensions": null,
+                "is_array": false
+            },
+            "StatusCode": {
+                "value": 0,
+                "_freeze": true
+            },
+            "SourceTimestamp": null,
+            "SourcePicoseconds": null,
+            "ServerTimestamp": null,
+            "ServerPicoseconds": null,
+            "_freeze": true
+        }
+    ]
+]
+
+    
+}
