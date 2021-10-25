@@ -1,0 +1,113 @@
+
+
+{
+    "desc": {
+        "NodeId": {
+            "Identifier": 84,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Root",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Root",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 0,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    "children": [
+    {
+        "NodeId": {
+            "Identifier": 85,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Objects",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Objects",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    {
+        "NodeId": {
+            "Identifier": 86,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Types",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Types",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    {
+        "NodeId": {
+            "Identifier": 87,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Views",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Views",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    }
+]
+
+
+    
+}
