@@ -27,7 +27,7 @@
             }
         }
     },
-    "children": [
+    "84": [
     {
         "NodeId": {
             "Identifier": 85,
@@ -106,8 +106,61 @@
             }
         }
     }
-]
-
-
+],
     
+    "87":    {
+        "NodeId": {
+            "Identifier": 98,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Double",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Views",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    },
+    
+        "98":    {
+        "NodeId": {
+            "Identifier": 46,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        },
+        "BrowseName": {
+            "Name": "Triple",
+            "NamespaceIndex": 0
+        },
+        "DisplayName": {
+            "_text": "Views",
+            "Encoding": 2
+        },
+        "ReferenceTypeId": {
+            "Identifier": 35,
+            "NamespaceIndex": 0,
+            "NamespaceUri": "",
+            "NodeIdType": {
+                "_name_": "TwoByte"
+            }
+        }
+    }
+
+
 }
