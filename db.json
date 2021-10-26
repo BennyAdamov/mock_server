@@ -1,7 +1,4 @@
 
-   
-
-
 {
     "desc": {
         "NodeId": {
@@ -58,7 +55,7 @@
     },
     {
         "NodeId": {
-            "Identifier": 86,
+            "Identifier": 87,
             "NamespaceIndex": 0,
             "NamespaceUri": "",
             "NodeIdType": {
@@ -81,37 +78,12 @@
                 "_name_": "TwoByte"
             }
         }
-    },
-    {
-        "NodeId": {
-            "Identifier": 87,
-            "NamespaceIndex": 0,
-            "NamespaceUri": "",
-            "NodeIdType": {
-                "_name_": "TwoByte"
-            }
-        },
-        "BrowseName": {
-            "Name": "Views",
-            "NamespaceIndex": 0
-        },
-        "DisplayName": {
-            "_text": "Views",
-            "Encoding": 2
-        },
-        "ReferenceTypeId": {
-            "Identifier": 35,
-            "NamespaceIndex": 0,
-            "NamespaceUri": "",
-            "NodeIdType": {
-                "_name_": "TwoByte"
-            }
-        }
     }
+
 ],
     
     "87":  [
-        {
+    {
         "NodeId": {
             "Identifier": 98,
             "NamespaceIndex": 0,
@@ -137,7 +109,7 @@
             }
         }
     }
-        ],
+    ],
     
         "98":  [  {
         "NodeId": {
