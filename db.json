@@ -108,7 +108,8 @@
     }
 ],
     
-    "87":    {
+    "87":  [
+        {
         "NodeId": {
             "Identifier": 98,
             "NamespaceIndex": 0,
@@ -133,9 +134,10 @@
                 "_name_": "TwoByte"
             }
         }
-    },
+    }, 
+        ]
     
-        "98":    {
+        "98":  [  {
         "NodeId": {
             "Identifier": 46,
             "NamespaceIndex": 0,
@@ -161,6 +163,7 @@
             }
         }
     }
+],
 
 
 }
